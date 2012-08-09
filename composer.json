@@ -1,0 +1,22 @@
+{
+    "name": "robywan/fotolia-api",
+    "description": "Unofficial composer package of the Fotolia API toolkit",
+    "keywords": ["fotolia", "api"],
+    "homepage": "https://github.com/Fotolia/Fotolia-API",
+    "type": "library",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Fotolia LLC",
+            "homepage": "http://www.fotolia.com",
+            "role": "Developer"
+        }
+	],
+    "require": {
+        "php": ">=5.2.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "classmap": ["php/"]
+    }
+}
